@@ -25,19 +25,16 @@
         <link rel="stylesheet" type="text/css" href="css/index.css" />
         <title>Hello</title>
     </head>
-    <body>
+    <body onload="myFunction()">
         <div class="app">
-     <img src="img/logo.png">
-	 <br/>
-	 <br/>
-	 <div class="ip">
-	 <img src="img/NewGame.png">
-	 <br/>
-	 <br/>
-	 </div>
-	 <div class="ip2">
-	 <img src="img/exit.png">
-	 </div
+       <input type="image" onclick="adding()" src="img/download.jpg" align="middle"/>
+
+<br/>
+
+<a href="javascript:document.location.reload();"
+ONMOUSEOVER="window.status='Replay'; return true">
+<img src="img/refresh.png" 
+width="115" height="115" border="0" /></a>
         </div>
         <script type="text/javascript" src="phonegap.js"></script>
         <script type="text/javascript" src="js/index.js"></script>
