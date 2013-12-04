@@ -49,7 +49,15 @@ body {
                                    /* offset horizontal: half of text area width */
 }
 
-
+/* Landscape layout (with min-width) */
+@media screen and (min-aspect-ratio: 1/1) and (min-width:400px) {
+    .app {
+        position:absolute;             /* position in the center of the screen */
+		left:45%;
+		top:30%;  /* offset vertical: half of image height */
+                                      /* offset horizontal: half of image width and text area width */
+    }
+}
 
 h1 {
     font-size:24px;
