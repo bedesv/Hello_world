@@ -19,6 +19,12 @@
 -->
 <html>
     <head>
+	<script>
+      function exitFromApp()
+       {
+            navigator.app.exitApp();
+       }
+	</script>
         <meta charset="utf-8" />
         <meta name="format-detection" content="telephone=no" />
         <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
@@ -31,12 +37,14 @@
 	 <br/>
 	 <br/>
 	 <div class="ip">
+	 <a href="index2.html">
 	 <img src="img/NewGame.png">
+	 </a>
 	 <br/>
 	 <br/>
 	 </div>
 	 <div class="ip2">
-	 <img src="img/exit.png">
+	 <input type="image" onclick="exitFromApp()" src="img/exit.png" align="middle"/>
 	 </div
         </div>
         <script type="text/javascript" src="phonegap.js"></script>
