@@ -39,7 +39,7 @@ body {
 .app {
     background-color:#008B8B; /* 170px x 200px */
     position:absolute;             /* position in the center of the screen */
-    left:50%;
+    left:45%;
     top:30%;
     height:50px;                   /* text area height */
     width:225px;                   /* text area width */
@@ -112,6 +112,12 @@ position:absolute;
 .ip2{
 position:absolute;
     left: 400px;
-	top: 500px
+	top: 500px;
+
+}
+.iplogo{
+position:absolute;
+    left: 40px;
+	top: -35px;
 
 }
