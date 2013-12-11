@@ -36,25 +36,28 @@ body {
 }
 
 /* Portrait layout (default) */
-.app {
-    background-color:#008B8B; /* 170px x 200px */
-    position:absolute;             /* position in the center of the screen */
-    left:45%;
-    top:30%;
-    height:50px;                   /* text area height */
-    width:225px;                   /* text area width */
-    text-align:center;
-    padding:180px 0px 0px 0px;     /* image height is 200px (bottom 20px are overlapped with text) */
-    margin:-115px 0px 0px -112px;  /* offset vertical: half of image height and text area height */
+#app {
+margin:400px auto auto auto ;
+	width:500px;
+	height:500px;
+  /*   background-color:#008B8B; /* 170px x 200px */
+   /*  position:absolute;   */           /* position in the center of the screen */
+   /*  height:50px;   */                 /* text area height */
+  /*   width:225px;     */               /* text area width */
+   /*  text-align:center; */
+	/* left:50%; */
+	/* top:50% */ */
+     /* offset vertical: half of image height and text area height */
                                    /* offset horizontal: half of text area width */
 }
 
 /* Landscape layout (with min-width) */
 @media screen and (min-aspect-ratio: 1/1) and (min-width:400px) {
     .app {
-        position:absolute;             /* position in the center of the screen */
-		left:45%;
-		top:30%;  /* offset vertical: half of image height */
+	margin:100px auto auto auto ;
+        background-position:left center;
+        padding:75px 0px 75px 170px;  /* padding-top + padding-bottom + text area = image height */
+        margin:-90px 0px 0px -198px;  /* offset vertical: half of image height */
                                       /* offset horizontal: half of image width and text area width */
     }
 }
@@ -104,20 +107,37 @@ h1 {
     -webkit-animation:fade 3000ms infinite;
 }
 
-.ip{
-position:absolute;
-    left: 250px;
+#ip2{
+position:relative;
+margin-left:400px;
+margin-top:400px;
 
 }
-.ip2{
-position:absolute;
-    left: 400px;
-	top: 500px;
+#ip{
+width:120px;
+height:123px;
+    position:relative;
+   margin-left:190px;
+	top:200px 
 
 }
-.iplogo{
+
+#center
+{
+width:300px;
+margin-left:100px;
+height:200px;
+padding:0px;
 position:absolute;
-    left: 40px;
-	top: -35px;
+
+}
+
+#log
+{
+position: absolute;
+margin-left: 75px;
+top:320px;
+width:  350px;
+font-size:30px;
 
 }
